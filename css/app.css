@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    /* padding: 1%; */
+    background-image: url(./../images/bg_h1.png);
+    background-repeat: no-repeat;
+
+}
+.nav_logo{
+    height: 60px;
+    
+}
+.navbar_main{
+    background-color: #97199A;
+    background-image: linear-gradient(to left, #97199A, #2A3B90);
+    /* color: white !important; */
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+#navbarNav{
+    display: flex;
+    flex-direction: row;
+    align-self: right;
+    justify-content: space-between;
+    align-items:right !important;
+}
+.nav-item>a{
+    color: white !important;
+}
+#home1_content_main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+    
+}
+#home1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1%;
+    width: 100%;
+    height: 400px;
+    padding: 1%;
+}
+.home1_p{
+    text-align: justify;
+}
+.apply_now_btn{
+    border: none;
+    background-image: linear-gradient(to left, #97199A, #2A3B90);
+    color: white;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: flex-end;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+#home2{
+    background-color: #97199A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.card_image{
+    position: flex;
+    
+}
+.card{
+    text-align: center;
+    margin-bottom: 5%;
+    width: 30%;
+}
+#home3{
+    background-color: #FAE6FF;
+    padding: 5%;
+}
+#home3>h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.home3_data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.body_img{
+    width: 40%;
+}
+#home3_data>p{
+    padding-top: 5%;
+    width: 40%;
+    text-align: justify;
+}
+#home4{
+    background-color: #FAE6FF;
+    padding: 5%;
+}
+.home_head{
+    margin-bottom: 2%;
+}
+#home5{
+    background-color: #FAE6FF;
+    padding: 5%;
+}
+#list_body>li{
+    list-style-image: url(./../images/right-arrow.png);
+    line-height: 2;
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+    #home1 {
+      background-color: #ecf5fe;
+    }
+    #home1_content_main{
+        width: 100%;
+    }
+    #home1_content{
+        color: #97199A;
+        margin-bottom: 5%;
+    }
+    .apply_now_btn{
+        width: 40%;
+        align-items: center;
+    }
+    .home3_data{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .body_img{
+        width: 95%;
+    }
+  }
