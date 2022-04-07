@@ -15,20 +15,19 @@
 .navbar_main{
     background-color: #97199A;
     background-image: linear-gradient(to left, #97199A, #2A3B90);
-    /* color: white !important; */
 }
-.navbar-nav{
+/* .navbar-nav{
     display: flex;
     flex-direction: row;
     align-items: right;
-}
-#navbarNav{
+} */
+/* #navbarNav{
     display: flex;
     flex-direction: row;
     align-self: right;
     justify-content: space-between;
     align-items:right !important;
-}
+} */
 .nav-item>a{
     color: white !important;
 }
