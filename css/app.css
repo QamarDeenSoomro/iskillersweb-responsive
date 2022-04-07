@@ -126,6 +126,40 @@
     line-height: 2;
     font-weight: 400;
 }
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, #2A3A90, #971D9A );
+    color: white;
+    padding: 1%;
+}
+#foot1{
+    
+    width: 30%;
+}
+#foot2{
+    width: 30%;
+}
+.email_link{
+    color: white;
+    text-decoration: none;
+}
+.email_link:hover{
+    color: white;
+    
+}
+#foot_icons>img{
+    border: white solid 1px;
+    background-color: white;
+    border-radius: 5%;
+}
+#last{
+    background-color: #97199A;
+    color: white;
+    padding: 1%;
+}
 @media only screen and (max-width: 600px) {
     #home1 {
       background-color: #ecf5fe;
@@ -149,6 +183,15 @@
         width: 100%;
     }
     .body_img{
+        width: 95%;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #foot1{
+        width: 95%;
+    }
+    #foot2{
         width: 95%;
     }
   }
